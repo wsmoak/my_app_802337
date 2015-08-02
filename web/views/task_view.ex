@@ -10,6 +10,6 @@ defmodule MyApp_802337.TaskView do
   end
 
   def render("task.json", %{task: task}) do
-    %{id: task.id}
+    %{id: task.id, title: task.title, due_at: task.due_at}
   end
 end
