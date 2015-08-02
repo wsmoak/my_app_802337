@@ -18,8 +18,8 @@ defmodule MyApp_802337.Router do
     get "/", PageController, :index
   end
 
-  # Other scopes may use custom stacks.
-  # scope "/api", MyApp_802337 do
-  #   pipe_through :api
-  # end
+  scope "/api", MyApp_802337 do
+    pipe_through :api
+    resources "/tasks", TaskController
+  end
 end
