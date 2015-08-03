@@ -12,4 +12,4 @@
   "poolboy": {:hex, :poolboy, "1.5.1"},
   "postgrex": {:hex, :postgrex, "0.9.1"},
   "ranch": {:hex, :ranch, "1.1.0"},
-  "trailing_format_plug": {:hex, :trailing_format_plug, "0.0.4"}}
+  "trailing_format_plug": {:git, "git://github.com/wsmoak/trailing_format_plug.git", "6d19ee4d0125c572ec9178293357a53766d78114", [branch: "phoenix_0_15_update"]}}

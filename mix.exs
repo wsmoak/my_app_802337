@@ -35,6 +35,6 @@ defmodule MyApp_802337.Mixfile do
      {:phoenix_html, "~> 1.4"},
      {:phoenix_live_reload, "~> 0.5", only: :dev},
      {:cowboy, "~> 1.0"},
-     {:trailing_format_plug, "~> 0.0.4"}]
+     {:trailing_format_plug, github: "wsmoak/trailing_format_plug", branch: "phoenix_0_15_update"}]
   end
 end
