@@ -1,10 +1,6 @@
 defmodule MyApp_802337.Router do
   use MyApp_802337.Web, :router
 
-  pipeline :before do
-    plug TrailingFormatPlug
-  end
-
   pipeline :browser do
     plug :accepts, ["html"]
     plug :fetch_session
@@ -13,6 +9,7 @@ defmodule MyApp_802337.Router do
   end
 
   pipeline :api do
+    plug TrailingFormatPlug
     plug :accepts, ["json"]
   end
 
