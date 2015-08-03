@@ -9,7 +9,6 @@ defmodule MyApp_802337.Router do
   end
 
   pipeline :api do
-    plug TrailingFormatPlug
     plug :accepts, ["json"]
   end
 

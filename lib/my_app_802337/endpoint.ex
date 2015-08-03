@@ -35,5 +35,7 @@ defmodule MyApp_802337.Endpoint do
     key: "_my_app_802337_key",
     signing_salt: "SWCT6HSq"
 
+  plug TrailingFormatPlug
+
   plug MyApp_802337.Router
 end
