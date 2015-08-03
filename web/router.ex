@@ -9,6 +9,7 @@ defmodule MyApp_802337.Router do
   end
 
   pipeline :api do
+    plug TrailingFormatPlug
     plug :accepts, ["json"]
   end
 
@@ -20,6 +21,7 @@ defmodule MyApp_802337.Router do
 
   scope "/api", MyApp_802337 do
     pipe_through :api
+
     resources "/tasks", TaskController
   end
 end
