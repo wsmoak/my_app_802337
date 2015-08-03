@@ -1,8 +1,5 @@
 # MyApp_802337
 
-To start your new Phoenix application:
+Phoenix and the Trailing Format Plug
 
-1. Install dependencies with `mix deps.get`
-2. Start Phoenix endpoint with `mix phoenix.server`
-
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+See: http://wsmoak.net/2015/08/03/phoenix-trailing-format.html
